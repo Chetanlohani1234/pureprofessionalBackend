@@ -1,0 +1,220 @@
+.university-form-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f1f8ff; /* Light blue background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.university-form h2 {
+  text-align: center;
+  color: #007bff; /* Blue color for the heading */
+  margin-bottom: 20px;
+}
+
+.university-form .form-group {
+  margin-bottom: 15px;
+}
+
+.university-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0056b3; /* Darker blue for labels */
+  font-weight: bold;
+}
+
+.university-form input[type="text"],
+.university-form input[type="number"],
+.university-form textarea,
+.university-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.university-form input[type="text"]:focus,
+.university-form input[type="number"]:focus,
+.university-form textarea:focus {
+  border-color: #0056b3; /* Darker blue on focus */
+  outline: none;
+}
+
+.university-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.university-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.submission-response {
+  margin-top: 20px;
+  background-color: #e7f3ff; /* Light blue background for response */
+  padding: 15px;
+  border: 1px solid #b3e0ff; /* Light blue border */
+  border-radius: 5px;
+  color: #0056b3; /* Dark blue text */
+}
+
+.form-group textarea {
+  resize: vertical; /* Allow vertical resizing for text area */
+  height: 100px; /* Default height */
+}
+
+.form-group button {
+  margin-top: 10px; /* Add margin to 'Add Admission Step' button */
+  background-color: #007bff; /* Primary blue color for this button */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
+
+/*New Css */
+.university-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.tab-container {
+  margin-bottom: 20px;
+}
+
+.tab-container button {
+  background-color: #f1f1f1;
+  color: #555;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.tab-container button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tab-container button:hover {
+  background-color: #ddd;
+}
+
+.tab-container button.active:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .university-form-container {
+    padding: 15px;
+  }
+
+  .tab-container button {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+

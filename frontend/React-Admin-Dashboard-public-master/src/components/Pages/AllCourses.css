@@ -1,0 +1,67 @@
+.all-courses-container {
+    padding: 20px;
+    width: 120%;
+  }
+  
+  .courses-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .courses-table th, .courses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .courses-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .courses-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .courses-table td .UilEdit, .courses-table td .UilTrash {
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  .courseBtn {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 12px 24px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    font-weight: 600; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 1px; /* Slight spacing between letters */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    float: right;
+    margin-bottom: 10px;
+
+    
+  }
+  
+  .courseBtn:hover {
+    background-color: blueviolet; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  .courseBtn:active {
+    transform: translateY(0); /* Return to original position when clicked */
+    background-color: #1e7e34; /* Even darker green when clicked */
+  }
+  
+  .courseBtn:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.3); /* Custom focus outline */
+  }
+  
+
+
+  
+  
