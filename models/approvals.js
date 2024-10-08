@@ -52,6 +52,8 @@ module.exports = (sequelize, DataTypes) => {
             key: 'id'
         }
     },
+  },{
+    tableName:'approvals'
   });
 
   return Approval;

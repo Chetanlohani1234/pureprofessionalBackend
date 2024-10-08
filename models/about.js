@@ -37,6 +37,8 @@ module.exports = (sequelize, DataTypes) => {
       duration: {
           type: DataTypes.STRING,
       },
+  },{
+    tableName:'about'
   });
 
   return About;

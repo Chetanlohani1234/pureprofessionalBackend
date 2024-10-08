@@ -43,6 +43,8 @@ module.exports = (sequelize, DataTypes) => {
       steps: {
           type: DataTypes.JSON, // Store array of strings as JSON
       },
+  },{
+    tableName:'admissionprocesses'
   });
 
   return AdmissionProcess;

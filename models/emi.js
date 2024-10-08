@@ -79,6 +79,8 @@ module.exports = (sequelize, DataTypes) => {
       totalInterest: {
           type: DataTypes.FLOAT,
       },
+  },{
+    tableName:'emis'
   });
 
   return Emi;
