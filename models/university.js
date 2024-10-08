@@ -27,6 +27,8 @@ module.exports = (sequelize, DataTypes) => {
           type: DataTypes.STRING,
           allowNull: false,
       },
+  },{
+    tableName:'university'
   });
 
   University.associate = (models) => {
